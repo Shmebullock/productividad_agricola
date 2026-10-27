@@ -12,7 +12,7 @@ book:
     - summary.qmd
     - references.qmd
 
-bibliography: references.bib
+bibliography: 06_referencias/references.bib
 
 format:
   html:
