@@ -1,0 +1,15 @@
+﻿{
+    "permission":  {
+                       "external_directory":  "deny",
+                       "bash":  "ask",
+                       "glob":  "allow",
+                       "read":  {
+                                    "*":  "allow",
+                                    "*.env":  "deny",
+                                    "*.env.*":  "deny"
+                                },
+                       "edit":  "allow",
+                       "grep":  "allow"
+                   },
+    "$schema":  "https://opencode.ai/config.json"
+}
