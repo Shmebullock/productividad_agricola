@@ -1,0 +1,55 @@
+# Marco teórico
+
+## Fundamentos teóricos
+
+### Producción agrícola y productividad de la tierra
+
+La teoría de la producción agrícola estudia cómo se combinan la tierra, el trabajo, el capital y la tecnología para generar bienes. En ese marco, la productividad de la tierra se define como la cantidad o el valor de producción obtenido por unidad de superficie. Se trata de un indicador parcial: relaciona el producto con un solo factor, la tierra, y por eso no informa por sí mismo sobre la eficiencia con que se utilizan los demás insumos. Rada y Fuglie (2019) distinguen entre esta productividad de la tierra y la productividad total de los factores (PTF), que relaciona el producto con el conjunto de los insumos utilizados. La distinción es relevante porque una explotación puede ser más productiva por hectárea y, al mismo tiempo, presentar una PTF menor que otra.
+
+En esta investigación, la productividad se mide en términos monetarios: valor bruto de producción por hectárea. Esta elección permite comparar cultivos distintos con un denominador común y aproxima el valor económico generado en cada unidad de superficie. Sin embargo, el indicador no equivale a rentabilidad, pues no descuenta los costos de producción, ni a ingresos por ventas, pues utiliza precios de referencia y no los precios efectivamente recibidos por cada productor. Esas diferencias deben tenerse presentes al interpretar los resultados.
+
+### Hipótesis de la relación inversa entre tamaño y productividad
+
+La hipótesis de la relación inversa sostiene que las explotaciones de menor tamaño tienden a obtener una mayor producción por hectárea que las grandes. @sen1962 la formuló a partir de la observación de la agricultura india y asoció esa ventaja con el uso intensivo de mano de obra familiar, la supervisión directa de las actividades agrícolas y el funcionamiento imperfecto de los mercados de trabajo y de tierra. En explotaciones pequeñas, la familia aporta trabajo con mayor flexibilidad y menor costo de supervisión; en las grandes, en cambio, la contratación y el monitoreo de trabajadores pueden elevar los costos y reducir la intensidad del uso de la tierra.
+
+La relación inversa es una regularidad empírica, no una ley universal. Su intensidad depende de la calidad de la tierra, de la disponibilidad de mano de obra, del acceso a mercados y de la forma de medir la producción y la superficie. Puede debilitarse o desaparecer cuando se controla por calidad del suelo, cuando se utiliza la PTF en lugar de la productividad por hectárea o cuando se consideran explotaciones muy grandes, con mayor capacidad de inversión y acceso a tecnología.
+
+### Economías de escala y relaciones no lineales
+
+Frente a la hipótesis inversa, las economías de escala explican por qué las explotaciones grandes pueden ser más productivas. Foster y Rosenzweig (2022) señalan que los costos de transacción en el mercado laboral y la capacidad de la maquinaria influyen en la productividad según el tamaño de la explotación. La maquinaria, la infraestructura de riego y ciertos insumos son indivisibles o tienen costos fijos elevados; por ello, su uso se vuelve más eficiente a medida que aumenta la superficie. Además, las grandes explotaciones pueden acceder a crédito, asistencia técnica y mercados con mayor facilidad.
+
+Cuando la ventaja de las pequeñas por supervisión y la ventaja de las grandes por escala operan simultáneamente, la relación entre tamaño y productividad puede adoptar formas no lineales. La productividad podría disminuir al principio, cuando predominan las deseconomías de supervisión, y aumentar después, cuando las economías de escala se vuelven dominantes; también podría adoptar una forma de U invertida o presentar umbrales a partir de los cuales cambia el signo de la relación. Por esa razón, el estudio no impone una forma funcional única y contrasta especificaciones lineales y no lineales.
+
+## Evidencia empírica
+
+### Evidencia de la relación inversa
+
+La evidencia internacional ofrece varios casos compatibles con la hipótesis inversa. Helfand y Taylor (2021) revisan el debate y documentan, para Brasil, que las explotaciones pequeñas presentan una mayor productividad por hectárea, aunque el resultado cambia cuando se considera la PTF. Gautam y Ahmed (2019) encontraron en Bangladesh una relación negativa entre tamaño y productividad que se debilitó con el tiempo. @singh2025 identificaron resultados compatibles con esa relación en los trópicos semiáridos de India y mostraron que su intensidad varió entre 1975 y 2014. @julien2019, por su parte, evidenciaron una mayor PTF en pequeñas explotaciones de Malaui, Tanzania y Uganda.
+
+En conjunto, estos estudios sugieren que la ventaja de las explotaciones pequeñas puede existir, pero no es uniforme. Depende del país, del periodo analizado, del tipo de cultivo y, sobre todo, de la medida de productividad empleada. Esa heterogeneidad es una advertencia contra la extrapolación directa de la hipótesis a contextos donde no ha sido contrastada.
+
+### Evidencia de relaciones positivas y no lineales
+
+Otros estudios muestran que las explotaciones pequeñas no siempre son más productivas. @omotilewa2021 encontraron en Nigeria una relación en forma de U: la productividad disminuye al principio y luego aumenta conforme crece la superficie. Muyanga y Jayne (2019) identificaron un patrón similar en Kenia al considerar un rango amplio de tamaños de explotación. En India, la Revolución Verde modificó la relación entre tamaño y productividad [@chandio2026]. @sheng2019b encontraron resultados compatibles con una relación no lineal en la producción de maíz del norte de China.
+
+También se han documentado relaciones positivas. @ameye2025 encontraron en Etiopía una mayor productividad en las grandes explotaciones dedicadas a hortalizas y productos lácteos. En la industria de granos de Australia se ha identificado una relación positiva entre tamaño y PTF [@sheng2019a]. @aragon2022 mostraron que las pequeñas explotaciones pueden producir más por hectárea, mientras que las grandes presentan una mayor PTF. Estos resultados refuerzan la idea de que la forma de la relación depende del rango de tamaños, del tipo de producción y del indicador utilizado.
+
+### Factores que explican las diferencias de productividad
+
+Las diferencias de productividad también se relacionan con la distribución de la tierra y el funcionamiento de los mercados de factores. @borrero2025 encontró en Perú que una menor desigualdad en la distribución de la tierra se asocia con una mayor PTF. @britos2022 identificaron pérdidas de producción asociadas a la asignación ineficiente de tierras en Guatemala. Ambos trabajos sugieren que las distorsiones del mercado de tierras pueden afectar la productividad agregada más allá del tamaño de cada explotación.
+
+El trabajo familiar y el acceso a maquinaria son otros factores relevantes. El trabajo familiar influye en la relación tamaño-productividad en Pakistán [@ayaz2024], mientras que Foster y Rosenzweig (2022) destacaron las ventajas de las pequeñas explotaciones en costos laborales y las de las grandes en el uso de maquinaria. A ello se suman la diversificación productiva y la eficiencia técnica. @hien2025 encontró en Francia que la diversificación de cultivos puede favorecer los ingresos de las pequeñas explotaciones y mejorar la eficiencia de las grandes. @lin2026 identificaron diferencias en la eficiencia técnica de las explotaciones arroceras de China según su tamaño.
+
+Estos hallazgos muestran que la relación tamaño-productividad no puede explicarse por una sola causa. La calidad de la tierra, la disponibilidad de trabajo, la mecanización, la diversificación y el entorno institucional interactúan de manera distinta en cada contexto.
+
+### Medición de la productividad y sensibilidad de los resultados
+
+La forma de medir la superficie y la producción puede cambiar los resultados. @ayalew2024 encontró en Etiopía que los errores de medición de la producción y del tamaño de las parcelas pueden alterar la relación entre tamaño y productividad. Bevis y Barrett (2020) identificaron en Uganda que la mayor productividad en los bordes de las parcelas explica parte de la relación inversa, lo que sugiere que el fenómeno puede reflejar patrones espaciales de uso de la tierra y no solo una ventaja de las explotaciones pequeñas. Rada y Fuglie (2019) señalan que los resultados varían según las condiciones agrícolas y la forma de medir la productividad, por lo que es importante diferenciar la productividad por hectárea de la PTF.
+
+Para esta investigación, esas advertencias implican varias decisiones metodológicas: utilizar la superficie física de los terrenos vinculados a los cultivos transitorios, documentar el origen de los precios de referencia, revisar la consistencia entre producción y superficie y realizar pruebas de sensibilidad. La interpretación debe limitarse a la asociación observada y no a relaciones causales.
+
+## Brecha de conocimiento
+
+La literatura internacional es abundante, pero heterogénea: algunas investigaciones encuentran mayor productividad en las explotaciones pequeñas, otras en las grandes y otras identifican relaciones no lineales. Para Ecuador, la evidencia reciente sobre esta relación es limitada, a pesar de que la estructura agraria y la importancia de los cultivos transitorios hacen relevante la pregunta. La ESPAC 2025 [@inec2025] permite construir un indicador comparable de productividad económica por hectárea y examinar la relación con el tamaño de la explotación en el ámbito nacional.
+
+Esta investigación busca aportar evidencia empírica reciente para ese debate, sin pretender zanjarlo. Su contribución es describir la forma de la relación tamaño-productividad en los cultivos transitorios ecuatorianos, identificar si la hipótesis inversa se sostiene en los datos y explorar si existen patrones no lineales. El análisis es correlacional y transversal; por tanto, no permite atribuir causalidad ni generalizar los resultados a otros cultivos o periodos.

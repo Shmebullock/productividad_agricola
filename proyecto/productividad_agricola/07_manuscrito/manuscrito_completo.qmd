@@ -1,0 +1,33 @@
+---
+title: "¿Los pequeños agricultores son más productivos que los grandes?"
+subtitle: "La paradoja de la productividad agrícola en los cultivos transitorios de Ecuador, 2025"
+bibliography: ../06_referencias/references.bib
+csl: ../06_referencias/apa.csl
+nocite: "@*"
+suppress-bibliography: false
+number-sections: true
+toc: true
+toc-depth: 2
+format:
+  html:
+    theme: cosmo
+    embed-resources: true
+    toc: true
+    toc-depth: 2
+    number-sections: true
+---
+
+{{< include ../index.qmd >}}
+
+{{< include 01_introduccion.qmd >}}
+
+{{< include 02_objetivos.qmd >}}
+
+{{< include 03_marco_teorico.qmd >}}
+
+{{< include 04_metodologia.qmd >}}
+
+# Referencias {.unnumbered}
+
+::: {#refs}
+:::

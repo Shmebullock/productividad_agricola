@@ -1,0 +1,19 @@
+# Objetivos e hipótesis
+
+## Objetivo general
+
+Analizar la relación entre el tamaño de las unidades agropecuarias y la productividad económica de los cultivos transitorios en Ecuador durante 2025, mediante estadísticas descriptivas y modelos econométricos lineales y no lineales.
+
+## Objetivos específicos
+
+1. Describir las diferencias en la productividad económica —valor bruto de producción por hectárea— entre las unidades agropecuarias pequeñas, medianas y grandes dedicadas a cultivos transitorios.
+2. Estimar la asociación entre la superficie total de la unidad y la productividad económica mediante especificaciones lineales y no lineales, con transformaciones logarítmicas cuando corresponda.
+3. Contrastar la hipótesis de la relación inversa entre tamaño y productividad y explorar la posible existencia de relaciones no lineales.
+
+## Hipótesis
+
+La hipótesis principal del estudio es que existe una relación inversa entre el tamaño de la explotación y la productividad de la tierra: a mayor superficie total, menor valor bruto de producción por hectárea. Esta hipótesis se deriva de la discusión de @sen1962 y de la evidencia de varios estudios latinoamericanos y asiáticos [@helfand2021; @gautam2019; @singh2025].
+
+De forma complementaria, se plantea que la relación podría no ser lineal. Si las economías de escala y las deseconomías de supervisión operan con distinta intensidad en distintos rangos de tamaño, la productividad podría disminuir al principio y aumentar después, o presentar umbrales [@foster2022; @omotilewa2021; @muyanga2019]. El estudio contrasta ambas posibilidades sin imponer de antemano una forma funcional única.
+
+**Hipótesis nula:** no existe una asociación estadísticamente significativa entre el tamaño de la explotación y la productividad económica por hectárea.

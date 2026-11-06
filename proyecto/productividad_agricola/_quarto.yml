@@ -1,26 +1,31 @@
-project:
+﻿project:
   type: book
   execute-dir: project
-  
+
 book:
-  title: "productividad_agricola"
-  author: "Norah Jones"
-  date: "26/10/2026"
+  title: "¿Los pequeños agricultores son más productivos que los grandes?"
+  subtitle: "La paradoja de la productividad agrícola en los cultivos transitorios de Ecuador, 2025"
+  date: "2026-11-06"
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - 07_manuscrito/01_introduccion.qmd
+    - 07_manuscrito/02_objetivos.qmd
+    - 07_manuscrito/03_marco_teorico.qmd
+    - 07_manuscrito/04_metodologia.qmd
+    - 06_referencias/referencias.qmd
+  search: true
+  repo-actions: none
 
 bibliography: 06_referencias/references.bib
+csl: 06_referencias/apa.csl
+lang: es
+number-sections: true
+suppress-bibliography: true
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-  pdf:
-    documentclass: scrreprt
-
-editor: visual
-
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: false

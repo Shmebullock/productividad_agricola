@@ -1,0 +1,63 @@
+# Metodología
+
+## Enfoque y diseño
+
+La investigación tendrá un enfoque cuantitativo, un diseño no experimental de corte transversal y un alcance descriptivo-correlacional. Se trabajará con los microdatos de la Encuesta de Superficie y Producción Agropecuaria Continua (ESPAC) 2025, elaborada por el Instituto Nacional de Estadística y Censos (INEC) [@inec2025]. El periodo de referencia corresponde a la información levantada en 2025 y la unidad de análisis es la unidad agropecuaria identificada por el código del cuestionario.
+
+El diseño es transversal porque las variables se observan en un solo periodo; no se sigue a las mismas unidades a lo largo del tiempo. El alcance es descriptivo-correlacional porque se busca caracterizar las diferencias de productividad entre categorías de tamaño y estimar la asociación entre superficie y productividad, sin manipular las variables ni atribuir relaciones causales.
+
+## Fuente de datos y unidad de análisis
+
+La ESPAC 2025 proporciona información sobre superficie, producción, uso del suelo y características generales de las unidades agropecuarias. Para este estudio se utilizan específicamente los módulos de cultivos transitorios, uso del suelo y características generales. Los registros de cultivo se vinculan con los terrenos mediante dos identificadores comunes: el código de la unidad agropecuaria y el número de terreno. Esta vinculación permite asociar cada cultivo con la superficie del terreno en el que se registró y evita sumar varias veces una misma superficie cuando un terreno alberga más de un cultivo.
+
+El procesamiento inicial generó 11.904 registros de cultivo correspondientes a 6.678 unidades agropecuarias. Esas cifras corresponden a la base depurada que se utiliza en el análisis y pueden variar si se actualiza el proceso de revisión. La unidad de observación del análisis final es la unidad agropecuaria, no el registro de cultivo.
+
+## Variables
+
+### Variable dependiente: productividad económica por hectárea
+
+La variable dependiente es la productividad económica, expresada en dólares por hectárea. Se calcula como el valor bruto de la producción de cultivos transitorios dividido entre la superficie física de los terrenos vinculados a esos cultivos:
+
+```text
+P_i = (suma de Q_ij × p_j) / S_i
+```
+
+donde `P_i` es la productividad de la unidad `i`, `Q_ij` es la cantidad producida del cultivo `j` en toneladas, `p_j` es el precio de referencia del cultivo `j` en dólares por tonelada y `S_i` es la superficie física, en hectáreas, de los terrenos vinculados a cultivos transitorios de la unidad `i`.
+
+El valor bruto de la producción se obtiene multiplicando las toneladas producidas de cada cultivo por su precio de referencia y sumando los resultados por unidad. El denominador incluye los terrenos registrados con cultivos transitorios y también los terrenos en barbecho, porque el barbecho forma parte de la superficie vinculada a ese sistema productivo. No se suman las superficies repetidas cuando un mismo terreno tiene varios cultivos. El indicador mide valor bruto por hectárea, no ingreso neto ni rentabilidad, pues no descuenta costos.
+
+### Variable independiente: tamaño de la explotación
+
+La variable independiente principal es la superficie total de la unidad agropecuaria, medida en hectáreas. Para la comparación descriptiva, las unidades se clasifican en tres categorías con umbrales operativos:
+
+| Categoría | Superficie total |
+|---|---:|
+| Pequeña | más de 0 y hasta 10 ha |
+| Mediana | más de 10 y hasta 50 ha |
+| Grande | más de 50 ha |
+
+Los umbrales son criterios operativos del estudio y no una clasificación normativa oficial. Se utilizan para ordenar la presentación descriptiva y para explorar diferencias entre segmentos; en los modelos econométricos se emplea la superficie continua, lo que evita depender de los cortes.
+
+### Variables de contexto y control
+
+Además de la superficie, la base contiene la provincia de la unidad y variables de uso del suelo que permiten describir el contexto productivo. Estas variables se utilizarán con fines descriptivos y, cuando la disponibilidad de datos lo permita, como controles en las estimaciones. El estudio no pretende construir un modelo exhaustivo de determinantes de la productividad, por lo que la selección de controles se limitará a las variables disponibles en la encuesta y se documentará en los resultados.
+
+## Procedimiento de depuración y construcción de la base
+
+El procesamiento se organiza en dos etapas. La primera construye una base de cultivos con una fila por registro de cultivo y su precio de referencia; la segunda agrega la información por unidad agropecuaria y calcula la productividad. Ambas etapas se implementan en scripts reproducibles y dejan registros auditables de las decisiones tomadas.
+
+La depuración incluye los siguientes criterios:
+
+- **Revisión de consistencia:** se excluyen 200 cuestionarios con usos del suelo incompatibles, superficie cultivada mayor que la superficie del terreno o ausencia de producción pese a registrar cosecha. La lista de exclusiones se conserva como bitácora de auditoría.
+- **Producto no identificable:** se excluyen las unidades cuyo producto se registra como "Otros transitorios", porque no es posible asignarles un precio de referencia. El código 592 se conserva porque corresponde a maní en cáscara.
+- **Barbecho:** los terrenos en barbecho se mantienen en el denominador de la superficie vinculada a cultivos transitorios. Esta decisión evita subestimar la superficie de las unidades que rotan cultivos y es consistente con el criterio de medición adoptado.
+- **Superficies repetidas:** la superficie de un terreno se cuenta una sola vez, aunque en él se registren varios cultivos.
+- **Valores extremos:** no se eliminan observaciones por presentar valores altos de productividad. Algunos de esos valores son compatibles con horticultura intensiva, como el tomate bajo invernadero, y pueden representar condiciones reales de producción. Para reducir su influencia se utilizarán medianas, transformaciones logarítmicas y estimadores robustos, y se reportarán análisis de sensibilidad.
+
+## Precios de referencia
+
+El valor de la producción se construye con un catálogo de precios de referencia en dólares por tonelada. El catálogo combina precios observados al productor, precios derivados de información mayorista con un margen supuesto y estimaciones por equivalencia cuando no se dispone de un precio específico. Cada registro conserva la fuente y el tipo de precio utilizado.
+
+El uso de precios de referencia introduce un margen de error en la variable dependiente. Para evaluar su influencia, se realizarán análisis de sensibilidad que comparen los resultados principales con especificaciones alternativas y se documentarán los supuestos del catálogo. Los resultados se interpretarán como una aproximación al valor económico de la producción, no como una medición exacta de los ingresos de los productores.
+
+

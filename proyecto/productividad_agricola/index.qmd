@@ -1,9 +1,9 @@
-# Preface {.unnumbered}
+# Resumen {.unnumbered}
 
-This is a Quarto book.
+La estructura agropecuaria de Ecuador se caracteriza por la coexistencia de unidades de muy distinto tamaño y por diferencias importantes en la intensidad con que utilizan la tierra. Esta heterogeneidad plantea una pregunta central para la política agraria: ¿son las explotaciones pequeñas más productivas por hectárea que las grandes? La literatura internacional ha documentado una relación inversa entre tamaño y productividad de la tierra, pero también ha encontrado relaciones positivas y no lineales, lo que sugiere que el resultado depende del contexto y de la forma de medir la productividad.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+Este trabajo analiza esa relación para los cultivos transitorios de Ecuador durante 2025. Para ello utiliza los microdatos de la Encuesta de Superficie y Producción Agropecuaria Continua (ESPAC) 2025 del Instituto Nacional de Estadística y Censos (INEC) y construye un indicador de productividad económica expresado en dólares por hectárea: el valor bruto de la producción de cultivos transitorios dividido entre la superficie física de los terrenos vinculados a esos cultivos. El tamaño de la explotación se mide por la superficie total en hectáreas y se clasifica en unidades pequeñas, medianas y grandes con fines descriptivos.
 
-```{r}
-1 + 1
-```
+La investigación combina estadísticas descriptivas y modelos econométricos lineales y no lineales para caracterizar la forma de la relación tamaño-productividad y contrastar la hipótesis de la relación inversa. El estudio no pretende establecer causalidad, sino describir la asociación existente y aportar evidencia reciente para el debate sobre estructura agraria y productividad en Ecuador.
+
+**Palabras clave:** productividad agrícola, tamaño de la explotación, cultivos transitorios, Ecuador, ESPAC 2025.

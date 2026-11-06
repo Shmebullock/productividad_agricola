@@ -1,0 +1,23 @@
+# Introducción
+
+## Problema de investigación
+
+Las unidades agropecuarias de Ecuador presentan diferencias notables en su extensión y en la forma en que aprovechan la tierra. Mientras algunas explotaciones concentran superficies extensas y recurren a maquinaria y trabajo contratado, otras operan en parcelas pequeñas con uso intensivo de mano de obra familiar. Esta heterogeneidad no es un detalle descriptivo: afecta la cantidad de producción que se obtiene por hectárea y, por tanto, la interpretación de la productividad agrícola.
+
+La literatura económica ha discutido durante décadas la posibilidad de una relación inversa entre el tamaño de la explotación y la productividad de la tierra. La hipótesis, formulada a partir de la observación de la agricultura india por @sen1962, sostiene que las explotaciones pequeñas pueden obtener un mayor valor de producción por hectárea debido al uso intensivo de trabajo familiar, la supervisión directa y la presencia de mercados imperfectos. Sin embargo, la evidencia posterior muestra que esa relación no es universal: las economías de escala, el acceso a maquinaria y los costos de transacción pueden favorecer a las explotaciones grandes [@foster2022]. El resultado puede ser una relación negativa, positiva o no lineal, según el contexto y la medida de productividad utilizada [@rada2019].
+
+En Ecuador, la Encuesta de Superficie y Producción Agropecuaria Continua (ESPAC) 2025 ofrece una oportunidad para examinar esta discusión con datos recientes. Los cultivos transitorios son especialmente adecuados para el análisis porque su producción se registra con relativa homogeneidad y porque permiten construir un indicador monetario comparable entre unidades de distinto tamaño. La pregunta que guía esta investigación es si, en ese segmento de la agricultura ecuatoriana, las unidades pequeñas presentan una mayor productividad económica por hectárea que las grandes, o si la relación adopta otra forma.
+
+El problema no puede resolverse por analogía con otros países. La evidencia internacional es heterogénea y los resultados son sensibles a la medición de la superficie, la producción y los precios [@ayalew2024; @bevis2020]. Por ello, el estudio no parte de la validez de la hipótesis inversa para Ecuador, sino que la somete a contraste empírico con los microdatos de la ESPAC 2025. El alcance se limita a la asociación entre tamaño y productividad de los cultivos transitorios; no se propone explicar todos los determinantes de la productividad agrícola ni atribuir relaciones causales.
+
+## Preguntas de investigación
+
+- ¿Cómo difiere la productividad económica por hectárea entre las unidades agropecuarias pequeñas, medianas y grandes dedicadas a cultivos transitorios en Ecuador durante 2025?
+- ¿Qué forma adopta la relación entre la superficie total de la explotación y la productividad económica por hectárea: lineal, decreciente, creciente o no lineal?
+- ¿La evidencia de la ESPAC 2025 respalda la hipótesis de una relación inversa entre tamaño y productividad, o sugiere una relación más compleja?
+
+## Justificación y potencialidades
+
+La investigación aporta tres elementos. Primero, ofrece evidencia reciente para Ecuador, un país donde la discusión sobre estructura agraria y productividad suele apoyarse en estudios de otras regiones. Segundo, utiliza un indicador monetario común —valor bruto de producción por hectárea— que permite comparar unidades de distinto tamaño sin confundirlo con ingresos por ventas o rentabilidad. Tercero, documenta de forma transparente la construcción de la base, el tratamiento de los precios de referencia y las decisiones de depuración, de modo que los resultados puedan revisarse y reproducirse.
+
+Los resultados pueden ser útiles para el diseño de políticas de acceso a la tierra, asistencia técnica y crédito, en la medida en que permitan identificar en qué segmentos de tamaño se concentra la productividad y dónde existen brechas. El estudio no sustituye un análisis de rentabilidad ni una evaluación de impacto; su contribución es descriptiva y correlacional.
