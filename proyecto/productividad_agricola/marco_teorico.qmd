@@ -1,0 +1,41 @@
+# Marco teórico
+
+## 1. Fundamentos teóricos
+
+### 1.1. Teoría de la producción agrícola y productividad de la tierra
+
+Para estudiar la relación entre el tamaño de las explotaciones agrícolas y su productividad, se parte de la teoría de la producción, que explica cómo se utilizan la tierra, el trabajo, el capital y la tecnología para producir bienes agrícolas. Desde este enfoque, la productividad de la tierra permite conocer el valor de producción obtenido por hectárea. En esta investigación, se medirá mediante el valor bruto de producción por hectárea dedicada a cultivos transitorios, mientras que el tamaño de la explotación se medirá por su superficie total, en hectáreas o categorías de tamaño.
+
+### 1.2. Hipótesis de la relación inversa entre tamaño agrícola y productividad
+
+El principal fundamento de esta relación es la hipótesis de la relación inversa entre tamaño agrícola y productividad de la tierra, examinada por Sen (1962). Esta hipótesis plantea que las explotaciones de menor tamaño pueden generar un mayor valor de producción por hectárea que las grandes, debido al uso intensivo de la mano de obra familiar y la supervisión directa de las actividades agrícolas. De esta manera, se plantea que, conforme aumenta la superficie total de la explotación, la productividad de la tierra tiende a disminuir.
+
+### 1.3. Economías de escala y relaciones no lineales
+
+Por otra parte, las economías de escala explican las ventajas que pueden tener las grandes explotaciones agrícolas al utilizar mejor la maquinaria, el capital y la tecnología. Foster y Rosenzweig (2022) señalan que los costos de contratación de trabajadores y el uso de maquinaria influyen en la productividad según el tamaño de la explotación. Por ello, la relación entre tamaño agrícola y productividad puede ser negativa, positiva o tener forma de U, es decir, que la productividad disminuya al principio y luego aumente conforme crece la superficie.
+
+## 2. Evidencia empírica
+
+### 2.1. Evidencia de la relación inversa entre tamaño agrícola y productividad
+
+Varios estudios respaldan la relación inversa entre tamaño agrícola y productividad. En Brasil, un estudio publicado en Food Policy (2021) encontró que las pequeñas explotaciones presentan mayor productividad por hectárea, aunque el resultado cambia al considerar la productividad total de los factores. Asimismo, Gautam y Ahmed (2019) identificaron en Bangladesh una relación negativa que se debilitó con el tiempo. Resultados similares fueron encontrados por Singh et al. (2025) en India, mientras que Julien et al. (2019) evidenciaron una mayor productividad total de los factores en pequeñas explotaciones de Malaui, Tanzania y Uganda. Estos resultados muestran que las ventajas de las pequeñas explotaciones pueden variar según el país y la forma de medir la productividad.
+
+### 2.2. Evidencia de relaciones positivas y no lineales
+
+Otros estudios muestran que las explotaciones pequeñas no siempre son más productivas. Omotilewa et al. (2021) encontraron en Nigeria una relación en forma de U, donde la productividad disminuye al principio y luego aumenta conforme crece la superficie. Resultados similares fueron identificados por Muyanga y Jayne (2019) en Kenia, Chandio y Bevis (2026) en India y Sheng et al. (2019) en la producción de maíz en China. Esto indica que la relación entre tamaño agrícola y productividad puede cambiar según la extensión de las explotaciones.
+
+Por otra parte, Ameye et al. (2025) encontraron en Etiopía una mayor productividad en las grandes explotaciones dedicadas a hortalizas y productos lácteos. Asimismo, Sheng y Chancellor (2019) identificaron una relación positiva entre tamaño y productividad total de los factores en Australia. En cambio, Aragón et al. (2022) señalaron que las pequeñas explotaciones pueden producir más por hectárea, mientras que las grandes presentan mayor productividad total de los factores. Esto muestra que los resultados también dependen de cómo se mida la productividad.
+
+### 2.3. Factores que explican las diferencias de productividad según el tamaño agrícola
+
+Las diferencias de productividad agrícola también están relacionadas con la distribución de tierras y el uso de los recursos. Borrero (2025) encontró en Perú que una menor desigualdad de tierras se relaciona con una mayor productividad total de los factores, mientras que Britos et al. (2022) identificaron pérdidas de producción por la asignación ineficiente de tierras en Guatemala. Por otra parte, Ayaz y Mughal (2024) señalaron que el trabajo familiar influye en la relación tamaño-productividad en Pakistán, mientras que Foster y Rosenzweig (2022) destacaron las ventajas de las pequeñas explotaciones en costos laborales y de las grandes en el uso de maquinaria.
+
+Asimismo, Hien (2025) encontró en Francia que la diversificación de cultivos puede favorecer los ingresos de las pequeñas explotaciones y mejorar la eficiencia de las grandes. Por otra parte, Lin et al. (2026) identificaron diferencias en la eficiencia técnica de las explotaciones arroceras de China según su tamaño. Estos resultados muestran que las diferencias de productividad también dependen de las condiciones de producción.
+
+### 2.4. Medición de la productividad agrícola y sensibilidad de los resultados
+
+La forma de medir la superficie y la producción también puede cambiar los resultados. Ayalew (2024) encontró en Etiopía que los errores de medición pueden alterar la relación entre tamaño y productividad. Asimismo, Bevis y Barrett (2020) identificaron en Uganda que la mayor productividad en los bordes de las parcelas explica parte de la relación inversa. Finalmente, New perspectives on farm size and productivity (2019) señaló que los resultados varían según las condiciones agrícolas y la forma de medir la productividad, por lo que es importante diferenciar la productividad por hectárea de la productividad total de los factores.
+
+## 3. Brecha de conocimiento
+
+A pesar de los estudios sobre la relación entre el tamaño agrícola y la productividad, todavía existe poca evidencia reciente en Ecuador. Las investigaciones internacionales presentan resultados diferentes, ya que algunas encuentran mayor productividad en las explotaciones pequeñas, otras en las grandes o identifican relaciones no lineales. Por ello, esta investigación busca analizar cómo se relaciona el tamaño de las explotaciones, medido en hectáreas o categorías de tamaño, con la productividad agrícola, expresada en dólares por hectárea dedicada a cultivos transitorios, mediante los microdatos de la ESPAC 2025.
